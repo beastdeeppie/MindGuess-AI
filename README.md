@@ -1,7 +1,7 @@
 
     	
 	
-https://www.carwale.com/used/bangalore/page-149/?kms=0-&year=0-&budget=0-&state=-1&seller=2&so=-1&sc=-1	3561 Used Cars in Bangalore
+https://www.carwale.com/used/bangalore/page-145/?kms=0-&year=0-&budget=0-&state=-1&seller=2&so=-1&sc=-1	3561 Used Cars in Bangalore
 	
 https://www.carwale.com/used/hyderabad/page-116/?kms=0-&year=0-&budget=0-&state=-1&seller=2&so=-1&sc=-1	2778 Used Cars in Hyderabad
 	

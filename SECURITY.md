@@ -3,7 +3,7 @@
 ## Reporting a Vulnerability
 If you discover a security vulnerability in MindGuess-AI, please report it responsibly. We appreciate the community’s help in making our application secure.
 
-- **Contact:** Email us at deepanshukarmakar091@gmail.com
+- **Contact:** Email us at coming soon / but ofc you can follow me on social media
 - **Scope:** Please include details of the vulnerability, steps to reproduce, and potential impact.
 - **Response Time:** We aim to respond within 48 hours.
 

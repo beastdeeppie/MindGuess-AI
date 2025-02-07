@@ -1,0 +1,19 @@
+body {
+    font-family: monospace;
+    background: black;
+    color: green;
+    text-align: center;
+}
+
+.terminal {
+    border: 2px solid green;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    background: black;
+    color: green;
+    border: 1px solid green;
+}

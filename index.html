@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Guessing Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="terminal">
+        <h1>🧠 AI Guessing Game</h1>
+        <p>Think of an object, and I'll try to guess it!</p>
+        <div id="game-output"></div>
+        <input type="text" id="user-input" placeholder="Type here...">
+        <button onclick="sendInput()">Submit</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

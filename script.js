@@ -1,12 +1,14 @@
 function sendInput() {
     let userInput = document.getElementById("user-input").value;
-    fetch('/guess', {
-        method: 'POST',
-        body: JSON.stringify({ "user_input": userInput }),
-        headers: { 'Content-Type': 'application/json' }
-    })
-    .then(response => response.json())
-    .then(data => {
-        document.getElementById("game-output").innerHTML += "<p>" + data.response + "</p>";
-    });
+    
+    // Simple AI Guessing Logic
+    let responses = ["a cat", "a car", "a spaceship", "a book", "a phone"];
+    let guess = responses[Math.floor(Math.random() * responses.length)];
+    
+    let outputDiv = document.getElementById("game-output");
+    outputDiv.innerHTML += `<p>You: ${userInput}</p>`;
+    outputDiv.innerHTML += `<p>AI: I guess you are thinking about ${guess}!</p>`;
+    
+    // Clear input field
+    document.getElementById("user-input").value = "";
 }

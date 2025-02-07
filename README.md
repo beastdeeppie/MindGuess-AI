@@ -18,7 +18,7 @@
 ✅ Fun and interactive gameplay 🎉  
 
 ## 📌 How to Play  
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/beastdeeppie/AI-Guessing-Game.git
-   cd AI-Gues
+1. You're in your project directory! Now, start the game by running:
+
+python -m http.server 8000
+Then, open http://localhost:8000/ in your browser to play the game. 🚀 Let me know if you run into any issues!

@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MindGuess-AI</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>MindGuess-AI</h1>
-        <p>Think of something, and I'll try to guess it!</p>
-        <input type="text" id="userInput" placeholder="Enter a hint...">
-        <button onclick="makeGuess()">Guess</button>
-        <p id="output"></p>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+function sendInput() {
+    let userInput = document.getElementById("user-input").value;
+    
+    // Simple AI Guessing Logic
+    let responses = ["a cat", "a car", "a spaceship", "a book", "a phone"];
+    let guess = responses[Math.floor(Math.random() * responses.length)];
+    
+    let outputDiv = document.getElementById("game-output");
+    outputDiv.innerHTML += `<p>You: ${userInput}</p>`;
+    outputDiv.innerHTML += `<p>AI: I guess you are thinking about ${guess}!</p>`;
+    
+    // Clear input field
+    document.getElementById("user-input").value = "";
+}
